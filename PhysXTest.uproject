@@ -1,0 +1,20 @@
+{
+	"FileVersion": 3,
+	"Category": "",
+	"Description": "",
+	"DisableEnginePluginsByDefault": true,
+	"Modules": [
+		{
+			"Name": "PhysXTest",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		}
+	],
+	"Plugins": [
+		{
+			"Name": "PluginBrowser",
+			"Enabled": true
+		}
+	],
+	"EngineAssociation": "{8C4C850F-42E0-2774-A441-118A7C10632E}"
+}
