@@ -8,7 +8,7 @@ public class PhysXTestTarget : TargetRules
 	public PhysXTestTarget(TargetInfo Target) : base(Target)
 	{
 		Type = TargetType.Game;
-
-		ExtraModuleNames.AddRange( new string[] { "PhysXTest" } );
+        DefaultBuildSettings = BuildSettingsVersion.Latest;
+        ExtraModuleNames.AddRange( new string[] { "PhysXTest" } );
 	}
 }

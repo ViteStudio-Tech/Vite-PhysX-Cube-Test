@@ -33,7 +33,7 @@ void ACubeSpawner::BeginPlay()
 
 	if (GEngine)
 	{
-		GEngine->AddOnScreenDebugMessage(0, 999.f, FColor::White, TEXT("Unreal 4.27 - PhysX 3.4"), true, FVector2D(2.0f, 2.0f));
+		GEngine->AddOnScreenDebugMessage(0, 999.f, FColor::White, TEXT("Unreal Vite 26 - PhysX 3.4"), true, FVector2D(2.0f, 2.0f));
 	}
 	CachedWorld = GetWorld();
 	CachedWorld->GetTimerManager().SetTimer(SpawnTimerHandle, this, &ACubeSpawner::SpawnGridSnapshot, SpawnInterval, true, 0.0f);

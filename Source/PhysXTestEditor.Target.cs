@@ -8,7 +8,7 @@ public class PhysXTestEditorTarget : TargetRules
 	public PhysXTestEditorTarget(TargetInfo Target) : base(Target)
 	{
 		Type = TargetType.Editor;
-
-		ExtraModuleNames.AddRange( new string[] { "PhysXTest" } );
+        DefaultBuildSettings = BuildSettingsVersion.Latest;
+        ExtraModuleNames.AddRange( new string[] { "PhysXTest" } );
 	}
 }
